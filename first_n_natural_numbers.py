@@ -3,7 +3,7 @@
 i=0
 num=[]
 sum1=0
-import array
+
 print('Enter the number of parameters (n1,n2...) : ')
 n=input()
 
@@ -17,6 +17,7 @@ while True:
     num=num+[parameters]
 
 for parameters in num:
+    
     sum=int(parameters)*(int(parameters)+1)/2
     sum1=sum1+sum
 
